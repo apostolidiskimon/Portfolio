@@ -17,6 +17,8 @@ const Nav = () => {
       <a href="#contact"><IoMdContacts/></a>
 
 
+
+
  </nav>
   )
 }
