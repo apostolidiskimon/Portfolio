@@ -1,14 +1,15 @@
 name: Deployment
 on:
   push:
-    branches: master
+    branches: main
 
 jobs:
   deploy:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
-        node-version: 17.x
+        node-version: 
+          - 17.x
     steps:
     - uses: actions/checkout@v1
 
