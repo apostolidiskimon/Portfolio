@@ -11,13 +11,13 @@
 
 :root{
     --color-bg:#6894B5;
-    --color-bg-variant:#555273;
+    --color-bg-variant:#618596a8;
     --color-primary:#b6d5e1;
-    --color-primary-variant:#65799b;
+    --color-primary-variant:#fafafa8f;
     --color-white:#ffff;
     --color-light:#e2eff1;
 
-    --transition :all 400ms ease;
+    --transition :all 400ms ease-in-out;
 
     --container-width-lg:75%;
     --container-width-md:86%;
