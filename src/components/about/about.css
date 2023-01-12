@@ -89,6 +89,32 @@ margin-top:25rem;
 
     .about__contnet p{
         margin:1rem 0 1.5rem;
+        color:red;
+    }
+}
+/* IPHONE */
+@media (min-width: 844) {
+.responsive {
+        position:top;
+    }
+
+    .about__me {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .about__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about__contnet {
+        text-align: center;
+    }
+
+    .about__contnet p {
+        margin: 1.5rem 0;
+        font-size: red;
     }
 }
 
@@ -96,7 +122,7 @@ margin-top:25rem;
 @media screen and (max-width:600px) {
 
     .responsive {
-            margin-top: 10rem;
+            margin-top: 5rem;
         }
     .about__me {
             width: 65%;

@@ -1,0 +1,110 @@
+.experience__container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:2rem;
+    transition: var(--transition);
+}
+
+.experience__container >div{
+    background:var(--color-bg-variant);
+    padding:2.4rem 5rem;
+    border-radius:2rem;
+    border:1px solid transparent;
+    transition: var(--transition);
+}
+
+.experience__container>div:hover{
+    
+    background:transparent;
+    border-color:var(--color-primary-variant);
+    cursor:default;
+    color:gold;
+    transition-duration: 2s;
+}
+
+.experience__container>div>h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color:white;
+}
+
+.experience__content{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap:2rem;
+}
+
+.experience__details{
+    display:flex;
+}
+
+
+/*---------------------MEDIA QUERIES(MEDIUM SCREEN DEVICES)===========*/
+@media screen and (max-width:1024px) {
+    .responsive {
+            margin-top: 20rem;
+        }
+
+
+    .experience__container {
+        grid-template-columns: 1fr;
+    }
+
+    .experience__container >div{
+        width:80%;
+        padding:2rem;
+        margin:0 auto;
+    }
+    
+    .experience__content{
+        padding:1rem;
+    }
+}
+
+/*---------------------MEDIA QUERIES(SMALL SCREEN DEVICES)===========*/
+@media screen and (max-width:600px) {
+
+    .responsive {
+            margin-top: 20rem;
+        }
+    
+    
+        .experience__container {
+            grid-template-columns: 1fr;
+        }
+    
+        .experience__container>div {
+            width: 80%;
+            padding: 2rem;
+            margin: 0 auto;
+        }
+    
+        .experience__content {
+            padding: 1rem;
+        }
+}
+
+/*---------------------MEDIA QUERIES(SMALLER SCREEN DEVICES)===========*/
+@media screen and (max-width:400px) {
+    .responsive {
+        margin-top: 20rem;
+    }
+
+    .about__me {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .about__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about__contnet {
+        text-align: center;
+    }
+
+    .about__contnet p {
+        margin: 1.1rem 0;
+    }
+}
