@@ -87,7 +87,7 @@
 /*---------------------MEDIA QUERIES(SMALLER SCREEN DEVICES)===========*/
 @media screen and (max-width:400px) {
     .responsive {
-        margin-top: 20rem;
+        margin-top: 2rem;
     }
 
     .about__me {
