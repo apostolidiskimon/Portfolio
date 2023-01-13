@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b34c2e57.css",
-    "main.js": "/Portfolio/static/js/main.885a3d9a.js",
+    "main.css": "/Portfolio/static/css/main.08ebab2b.css",
+    "main.js": "/Portfolio/static/js/main.8b342468.js",
+    "static/media/presentation.pptx": "/Portfolio/static/media/presentation.c5c61d9233144ab99a1b.pptx",
+    "static/media/musicfinderbeta.apk": "/Portfolio/static/media/musicfinderbeta.0d1c12bb2ecbc2e56379.apk",
     "static/media/placeholder1.jpg": "/Portfolio/static/media/placeholder1.f6ea161819e7903a3f1b.jpg",
+    "static/media/musicfinder2.png": "/Portfolio/static/media/musicfinder2.08a221b50c5fd2d96414.png",
     "static/media/Projects.png": "/Portfolio/static/media/Projects.55f5e4bb3e5475729ed2.png",
     "static/media/tools.png": "/Portfolio/static/media/tools.03e70062eebdb59baf3d.png",
     "static/media/CV.pdf": "/Portfolio/static/media/CV.8b64f70a8582254e91ad.pdf",
     "static/media/wip.jpg": "/Portfolio/static/media/wip.d804e1de15598111e11b.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.b34c2e57.css.map": "/Portfolio/static/css/main.b34c2e57.css.map",
-    "main.885a3d9a.js.map": "/Portfolio/static/js/main.885a3d9a.js.map"
+    "main.08ebab2b.css.map": "/Portfolio/static/css/main.08ebab2b.css.map",
+    "main.8b342468.js.map": "/Portfolio/static/js/main.8b342468.js.map"
   },
   "entrypoints": [
-    "static/css/main.b34c2e57.css",
-    "static/js/main.885a3d9a.js"
+    "static/css/main.08ebab2b.css",
+    "static/js/main.8b342468.js"
   ]
 }
