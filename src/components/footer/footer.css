@@ -1,0 +1,33 @@
+footer{
+    height:40vh;
+    background:var(--color-primary);
+    padding:3rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top:7rem;
+}
+
+footer a{
+    color:var(--color-bg);
+
+}
+
+footer li{
+   display:flex;
+   flex-direction: row;
+    gap:5rem;
+    background-color: red;
+    justify-content: center;
+    
+}
+.footer__socials{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:5rem;
+    margin-top: 2rem;
+}
+
+.iconss{
+    font-size:200%;
+}

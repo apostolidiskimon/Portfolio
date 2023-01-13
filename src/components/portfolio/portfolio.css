@@ -1,25 +1,33 @@
-.portfolio>IMG1 {
-
-    width: 10%;
-}
-
 .portfolio__container{
     
-    display: grid;
-    grid-template-columns: 50% 50%;
+
+display:flex;
+gap:5rem;
+flex-direction: row;
+align-items: center;
+justify-content: center;
     
 }
 .responsive{
     margin-top: 10rem;
 }
+.portfolio__item >h3{
 
+    
+}
 .portfolio__item{
+
+    display:grid;
+    justify-content: center;
+        align-items: center;
+    width:20rem;
+    height:20rem;
     background:var(--color-bg-variant);
-    padding:4rem;
+    padding:1rem;
     border-radius:2rem;
     border:1px solid transparent;
     transition: var(--transition);
-    align-items: center;
+    size:5rem;
     
 
  
@@ -30,10 +38,12 @@
     background:transparent;
 }
 
-.portfolio__item-image{
-    width:fit-content;
+.item-image{
+    width:7rem;
+    height:7rem;
     overflow:hidden;
     opacity:0.8;
+    position:static;
     
 
 }

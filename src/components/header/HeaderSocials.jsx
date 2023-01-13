@@ -6,6 +6,7 @@ const HeaderSocials = () => {
     <div className="header_socials">
       <a
         href="https://www.linkedin.com/in/apostolidiskimon/"
+        className="iconss"
         rel="noreferrer"
         target="_blank"
       >
@@ -13,6 +14,7 @@ const HeaderSocials = () => {
       </a>
       <a
         href="https://github.com/apostolidiskimon "
+        className="iconss"
         rel="noreferrer"
         target="_blank"
       >
