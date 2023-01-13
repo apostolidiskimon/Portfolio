@@ -108,10 +108,8 @@ header:before {
 
     .header_socials,
     .scroll_down{
-        display: inline-block;
-            font-size: 10px;
-        align-items: flex-end;
-        padding-inline: 2rem;
+        display: none;
+        
             
         
     }
