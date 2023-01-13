@@ -2,6 +2,9 @@ import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/Projects.png";
 import WIP from "../../assets/wip.jpg";
+import MF from "../..//assets/musicfinder2.png";
+import APK from "../../assets/musicfinderbeta.apk";
+import PRESEN from "../../assets/presentation.pptx";
 const Portfolio = () => {
   return (
     <section id="portfolio" className="responsive">
@@ -15,13 +18,19 @@ const Portfolio = () => {
           </div>
           <h3>My Personal Portfolio</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/apostolidiskimon/" className="btn">
+            <a
+              href="https://github.com/apostolidiskimon/"
+              className="btn"
+              rel="noreferrer"
+              target="_blank"
+            >
               Github
             </a>
             <a
-              href="https://github.com/apostolidiskimon/"
+              href="ostolidiskimon.github.io/Portfolio/"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Demo
             </a>
@@ -31,15 +40,17 @@ const Portfolio = () => {
         {/* PROJECT 2 /////////////////// */}
         <article className="portfolio__item">
           <div className="item-image">
-            <img src={WIP} alt="" />
+            <img src={MF} alt="" />
           </div>
-          <h3>WIP</h3>
+          <h3>
+            Music finder<h5>2016 beta</h5>
+          </h3>
           <div className="portfolio__item-cta">
-            <a href="#portfolio" className="btn">
-              N/A
+            <a href={PRESEN} download className="btn">
+              Presentation
             </a>
-            <a href="#portfolio" className="btn">
-              N/A
+            <a href={APK} download className="btn btn-primary">
+              .Apk
             </a>
           </div>
         </article>

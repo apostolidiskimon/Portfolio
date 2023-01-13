@@ -14,79 +14,79 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <RiChatCheckLine className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Certified Graphic Designer</p>
             </li>
             <li>
               <RiChatCheckLine className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Responsive UI</p>
             </li>
             <li>
               <RiChatCheckLine className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Material Design</p>
             </li>
             <li>
               <RiChatCheckLine className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>2D/3D Animations</p>
             </li>
             <li>
               <RiChatCheckLine className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Audio Effects</p>
             </li>
           </ul>
         </article>
         {/* END OF UI/UX*/}
         <article className="service">
           <div className="service_head">
-            <h3>Web Development</h3>
+            <h3>Development</h3>
           </div>
           <ul className="service__list">
             <li>
               <RiChatCheckLine className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Certified Web Designer</p>
             </li>
             <li>
               <RiChatCheckLine className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Certified Python Fullstack Developer</p>
             </li>
             <li>
               <RiChatCheckLine className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Develop Apps with Unity Engine/Unreal Engine/Android Studio</p>
             </li>
             <li>
               <RiChatCheckLine className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>SQL Databases</p>
             </li>
             <li>
               <RiChatCheckLine className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Deployment/Hosting</p>
             </li>
           </ul>
         </article>
         {/* END Web Development */}
         <article className="service">
           <div className="service_head">
-            <h3>Creation</h3>
+            <h3>Management</h3>
           </div>
           <ul className="service__list">
             <li>
               <RiChatCheckLine className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Time Managment</p>
             </li>
             <li>
               <RiChatCheckLine className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Working And Communicating With Teams</p>
             </li>
             <li>
               <RiChatCheckLine className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Supervising Teams</p>
             </li>
             <li>
               <RiChatCheckLine className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Project Management</p>
             </li>
             <li>
               <RiChatCheckLine className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>A people-first approach </p>
             </li>
           </ul>
         </article>

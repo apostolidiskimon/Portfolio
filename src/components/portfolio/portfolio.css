@@ -11,9 +11,8 @@ justify-content: center;
 .responsive{
     margin-top: 10rem;
 }
-.portfolio__item >h3{
-
-    
+.portfolio__item h3,h5{
+    text-align: center;
 }
 .portfolio__item{
 
@@ -37,15 +36,15 @@ justify-content: center;
     border-color:var(--color-primary-variant);
     background:transparent;
 }
-
+.img{
+    align-items: center;
+    box-sizing: border-box;
+ 
+}
 .item-image{
-    width:7rem;
-    height:7rem;
-    overflow:hidden;
-    opacity:0.8;
-    position:static;
-    
-
+   height:10rem;
+   align-items: center;
+   box-shadow: black;
 }
 
 .portfolio__item h3{
@@ -56,21 +55,29 @@ justify-content: center;
     gap:1rem;
     margin-bottom: 1rem;
     align-items: center;
+    text-align: center;
 
 }
 /*---------------------MEDIA QUERIES(MEDIUM SCREEN DEVICES)===========*/
 @media screen and (max-width:1024px) {
-
+    .img{
+        width:0%;
+    }
+    .item-image{
+        width:0%;
+    }
     .portfolio__container {
+        width:20rem;
             display:flex;
-            flex-direction: column;
+            flex-direction: row;
             flex-wrap: wrap;
             -ms-flex-align: center;
         }
     
         .portfolio__item {
+           
             display: flex;
-                flex-direction: column;
+                flex-direction: row;
                 flex-wrap: wrap;
                 -ms-flex-align: center;
         }
@@ -88,12 +95,7 @@ justify-content: center;
         -ms-flex-align: center;
     }
 
-        .portfolio__item {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            -ms-flex-align: center;
-        }
+   
 }
 
 

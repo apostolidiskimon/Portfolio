@@ -18,6 +18,7 @@ gap:3rem;
     background:transparent;
     border-color:var(--color-primary-variant);
     cursor:default;
+    color:gold;
 }
 
 .service_head{

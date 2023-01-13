@@ -22,10 +22,17 @@ const Footer = () => {
         <a
           href="https://www.linkedin.com/in/apostolidiskimon/"
           className="iconss"
+          rel="noreferrer"
+          target="_blank"
         >
           <BsLinkedin />
         </a>
-        <a href="https://github.com/apostolidiskimon/" className="iconss">
+        <a
+          href="https://github.com/apostolidiskimon/"
+          className="iconss"
+          rel="noreferrer"
+          target="_blank"
+        >
           <GrGithub />
         </a>
       </div>

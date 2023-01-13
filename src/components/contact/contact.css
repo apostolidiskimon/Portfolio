@@ -54,14 +54,20 @@ input,textarea{
 
     .contact__container {
         display:block;
-      margin-left:4rem;
+      margin-left:3.5rem;
         width: var(--container-width-md);
     }       
 }
 /*---------------------MEDIA QUERIES(SMALL SCREEN DEVICES)===========*/
 @media screen and (max-width:600px) {
 .contact__container {
-     width:var(--container-width-sm);
+            padding-right:4rem;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            -ms-flex-align: center;
+        
     
 }
 }

@@ -40,12 +40,15 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            totam accusantium at dicta hic non perferendis qui odio eaque
-            architecto. Fugiat, repellat cupiditate cum accusamus magni quia
-            facere, quam neque cumque laborum rem voluptas, illum sapiente aut
-            ipsum reiciendis alias! Voluptatem perspiciatis iste exercitationem
-            eaque!
+            Hello there. Thank you for visiting my portfolio. My name is Kimon
+            Apostolidis and right now I'm located in Greece. I have worked on
+            roles across 3 different business sectors including : <b>Sales </b>,
+            <b>Call Centers</b>, and <b>Project Management</b>. I have a
+            <b> Bachelor's Degree</b> in :{" "}
+            <b>Applied Informatics In Administration And Economy</b> and a
+            strong passion for creating multimedia projects.I have acquired
+            experience in working with teams as much as guiding team members to
+            a particular goal.
           </p>
           <a href="#contact" className="btn btn-primary">
             Contact Me
