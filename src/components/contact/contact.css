@@ -61,7 +61,7 @@ input,textarea{
 /*---------------------MEDIA QUERIES(SMALL SCREEN DEVICES)===========*/
 @media screen and (max-width:600px) {
 .contact__container {
-            padding-right:4rem;
+            padding-right:3.5rem;
             justify-content: center;
             display: flex;
             flex-direction: column;
