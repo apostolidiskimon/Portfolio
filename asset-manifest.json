@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c7b63f3d.css",
-    "main.js": "/Portfolio/static/js/main.8b342468.js",
+    "main.css": "/Portfolio/static/css/main.aca7157e.css",
+    "main.js": "/Portfolio/static/js/main.0f76a8c6.js",
     "static/media/presentation.pptx": "/Portfolio/static/media/presentation.c5c61d9233144ab99a1b.pptx",
     "static/media/musicfinderbeta.apk": "/Portfolio/static/media/musicfinderbeta.0d1c12bb2ecbc2e56379.apk",
     "static/media/placeholder1.jpg": "/Portfolio/static/media/placeholder1.f6ea161819e7903a3f1b.jpg",
@@ -9,13 +9,14 @@
     "static/media/Projects.png": "/Portfolio/static/media/Projects.55f5e4bb3e5475729ed2.png",
     "static/media/tools.png": "/Portfolio/static/media/tools.03e70062eebdb59baf3d.png",
     "static/media/CV.pdf": "/Portfolio/static/media/CV.8b64f70a8582254e91ad.pdf",
+    "static/media/logo2.png": "/Portfolio/static/media/logo2.c8535d0475d866894dfd.png",
     "static/media/wip.jpg": "/Portfolio/static/media/wip.d804e1de15598111e11b.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.c7b63f3d.css.map": "/Portfolio/static/css/main.c7b63f3d.css.map",
-    "main.8b342468.js.map": "/Portfolio/static/js/main.8b342468.js.map"
+    "main.aca7157e.css.map": "/Portfolio/static/css/main.aca7157e.css.map",
+    "main.0f76a8c6.js.map": "/Portfolio/static/js/main.0f76a8c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7b63f3d.css",
-    "static/js/main.8b342468.js"
+    "static/css/main.aca7157e.css",
+    "static/js/main.0f76a8c6.js"
   ]
 }
