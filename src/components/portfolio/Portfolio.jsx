@@ -5,6 +5,7 @@ import WIP from "../../assets/wip.jpg";
 import MF from "../..//assets/musicfinder2.png";
 import APK from "../../assets/musicfinderbeta.apk";
 import PRESEN from "../../assets/presentation.pptx";
+import MS from "../../assets/logo2.png";
 const Portfolio = () => {
   return (
     <section id="portfolio" className="responsive">
@@ -40,6 +41,33 @@ const Portfolio = () => {
         {/* PROJECT 2 /////////////////// */}
         <article className="portfolio__item">
           <div className="item-image">
+            <img src={MS} alt="" />
+          </div>
+          <h3>
+            Microsoft Store <h5>WIP</h5>
+          </h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/apostolidiskimon/msstore"
+              className="btn"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://apostolidiskimon.github.io/msstore/"
+              className="btn"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Demo
+            </a>
+          </div>
+        </article>
+        {/* PROJECT 2 /////////////////// */}
+        <article className="portfolio__item">
+          <div className="item-image">
             <img src={MF} alt="" />
           </div>
           <h3>
@@ -47,25 +75,10 @@ const Portfolio = () => {
           </h3>
           <div className="portfolio__item-cta">
             <a href={PRESEN} download className="btn">
-              Presentation
+              PDF
             </a>
             <a href={APK} download className="btn btn-primary">
               .Apk
-            </a>
-          </div>
-        </article>
-        {/* PROJECT 3 /////////////////// */}
-        <article className="portfolio__item">
-          <div className="item-image">
-            <img src={WIP} alt="" />
-          </div>
-          <h3>WIP</h3>
-          <div className="portfolio__item-cta">
-            <a href="#portfolio" className="btn">
-              N/A
-            </a>
-            <a href="#portfolio" className="btn">
-              N/A
             </a>
           </div>
         </article>
