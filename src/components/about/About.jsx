@@ -41,7 +41,7 @@ const About = () => {
 
           <p>
             Hello there. Thank you for visiting my portfolio. My name is Kimon
-            Apostolidis and right now I'm located in Greece. I have worked on
+            Apostolidis and right now I'm located in Greece. I have worked in
             roles across 3 different business sectors including : <b>Sales </b>,
             <b>Call Centers</b>, and <b>Project Management</b>. I have a
             <b> Bachelor's Degree</b> in :{" "}
