@@ -74,6 +74,12 @@ const Experience = () => {
               <h4>Git</h4>
               <small ClassName="text-light">Advanced Begginer</small>
             </article>
+
+            <article className="experience_details">
+              <BsFillCheckCircleFill ClassName="experience__icons" />
+              <h4>Docker - Cubernates</h4>
+              <small ClassName="text-light">Advanced Begginer</small>
+            </article>
           </div>
         </div>
       </div>
