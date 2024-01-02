@@ -1,170 +1,202 @@
-.about__container{
-    display:grid;
-    grid-template-columns:35% 50%;
-    gap:15%;
+.about__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.about__me{
-    width:75%;
-    aspect-ratio:0.5/0.5;
-    border-radius:2rem;
-    background:linear-gradient(45deg,transparent,var(--color-primary),transparent);
-    display:grid;
-    place-items:center;
-
+.containerinfo {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center;
+}
+.about_general {
+  justify-content: center;
+  align-items: center;
 }
 
-
-.about__me-image{
-    width:300px;
-    border-radius:2rem;
-    overflow:hidden;
-    transform: rotate(10deg);
-    transition:var(--transition);
+.leftDivision,
+.rightDivision {
+  flex: 1; /* Each division takes up equal width */
+  padding: 20px; /* Add padding for spacing */
+  /*border: 1px solid #ccc; /* Add a border for better visibility */
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+.about__me {
+  width: 100%;
+  display: grid;
+  place-items: center;
 }
 
-.about__me-image:hover{
-    transform:rotate(0deg);
+.about__me-image {
+  color: var(--color-light);
+}
+#parent {
+  display: flex;
+  flex-direction: row;
+  -ms-flex-align: center;
+  background-color: rgb(0, 255, 64);
+  justify-content: center;
+  background-color: red;
+}
+.about_qualifications {
+  display: flex;
+  vertical-align: middle;
+  padding: 0%;
+  align-self: center;
+  justify-content: center;
+}
+.about__cards {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5%;
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+  margin-top: -15rem;
+}
+.about__cardsleft {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 5%;
+  justify-content: center;
+}
+.about__cardsright {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5%;
+  justify-content: center;
+}
+.about__general {
+  display: flex;
+  gap: 25%;
+  text-align: center;
+  size: 5cm;
+  background-color: azure;
+  justify-content: center;
+}
+.about__card {
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 4rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+  justify-content: center;
+}
+.about__card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
 }
 
-.about__cards{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:1.5rem;
+.about__icon {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
 }
 
-.about__card{
-    background:var(--color-bg-variant);
-    border:1px solid transparent;
-    border-radius: 4rem;
-    padding:2rem;
-    text-align: center;
-    transition:var(--transition);
-
-}
-.about__card:hover{
-        background:transparent;
-        border-color:var(--color-primary-variant);
+.about_card h5 {
+  font-size: 0.95rem;
 }
 
-.about__icon{
-
-    color: var(--color-primary);
-    font-size: 1.4rem;
-    margin-bottom:1rem;
+.about__card small {
+  font-size: 0.7rem;
+  color: var(--color-light);
 }
 
-.about_card h5{
-    font-size:0.95rem;
-}
+.about__content p {
+  align-items: center;
 
-.about__card small{
-    font-size:0.7rem;
-    color:var(--color-light);
-
-}
-
-.about__content p{
-    margin:2rem 0 2.6rem;
-    color:var(--color-light);
+  margin: 2rem 0 2.6rem;
+  color: var(--color-light);
 }
 
 /*---------------------MEDIA QUERIES(MEDIUM SCREEN DEVICES)===========*/
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
+  .responsive {
+    margin-top: 20rem;
+    padding-top: 20rem;
+  }
 
-
-.responsive{
-margin-top:20rem;
-padding-top: 20rem;    
-}
-
-    .about__container {
-        
-        grid-template-columns: 2fr;
-        gap:0;
-    }
-    .about__me{
-        width:50%;
-        margin:2rem auto 4rem;
-    }
-
-    .about__contnet p{
-        margin:1rem 0 1.5rem;
-        color:red;
-    }
+  .about__container {
+    grid-template-columns: 2fr;
+    gap: 0;
+  }
+  .about__me {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
 }
 /* IPHONE */
 @media (min-width: 844) {
-.responsive {
-        position:top;
-    }
+  .responsive {
+    position: top;
+  }
 
-    .about__me {
-        width: 65%;
-        margin: 0 auto 3rem;
-    }
+  .about__me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
 
-    .about__cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-    }
+  .about__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
 
-    .about__contnet {
-        text-align: center;
-    }
+  .about__contnet {
+    text-align: center;
+  }
 
-    .about__contnet p {
-        margin: 1.5rem 0;
-        font-size: red;
-    }
+  .about__contnet p {
+    margin: 1.5rem 0;
+    font-size: red;
+  }
 }
 
 /*---------------------MEDIA QUERIES(SMALL SCREEN DEVICES)===========*/
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
+  .responsive {
+    margin-top: 5rem;
+  }
+  .about__me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
 
-    .responsive {
-            margin-top: 5rem;
-        }
-    .about__me {
-            width: 65%;
-            margin: 0 auto 3rem;
-        }
-    
-    .about__cards {
-           grid-template-columns: 1fr 1fr;
-           gap:1rem;
-     }
+  .about__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
 
-    .about__contnet{
-        text-align:center;
-    }
-    .about__contnet p{
-        margin:1.5rem 0;
-    }
-    
+  .about__contnet {
+    text-align: center;
+  }
+  .about__contnet p {
+    margin: 1.5rem 0;
+  }
 }
 
 /*---------------------MEDIA QUERIES(SMALLER SCREEN DEVICES)===========*/
-@media screen and (max-width:400px) {
-.responsive {
-        margin-top: 10rem;
-    }
+@media screen and (max-width: 400px) {
+  .responsive {
+    margin-top: 10rem;
+  }
 
-    .about__me {
-        width: 65%;
-        margin: 0 auto 3rem;
-    }
+  .about__me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
 
-    .about__cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-    }
+  .about__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
 
-    .about__contnet {
-        text-align: center;
-    }
+  .about__contnet {
+    text-align: center;
+  }
 
-    .about__contnet p {
-        margin: 1.1rem 0;
-    }
+  .about__contnet p {
+    margin: 1.1rem 0;
+  }
 }

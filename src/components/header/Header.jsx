@@ -7,10 +7,12 @@ const Header = () => {
   return (
     <header>
       <div className="container header_container">
-        <h5>Hello I'm</h5>
-        <h2>Kimon Apostolidis</h2>
-        <h5 className="textlight">FullStack Developer</h5>
-        <h1>THIS SITE IS WIP</h1>
+        <h3>My Name Is</h3>
+        <h1>Kimon Apostolidis</h1>
+        <h2 className="textlight">
+          BSc in Applied Informatics In Administration And Economy
+        </h2>
+        <h2>FullStack Development | Project Management</h2>
         <CTA />
         <HeaderSocials />
 

@@ -1,116 +1,108 @@
-header{
-    height:100vh;
-    padding-top:7rem;
-    overflow:hidden;
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
 }
-.header_container{
-    text-align:center;
-    height:100%;
-    position:relative;
+.header_container {
+  text-align: center;
+  height: 100%;
+  position: relative;
 }
 
 /*======================== CTA============== */
 
-.cta{
-    margin-top:2.5rem;
-    display:flex;
-    gap:1rem;
-    justify-content: center;
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
 /*============= SOCIAL TAGS ========= */
 
-.header_socials{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    gap:0.8rem;
-    position:absolute;
-    left:0;
-    bottom:3rem;
+.header_socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
 }
 .header_socials::before {
-    content: '';
-    width: 1px;
-    height: 2rem;
-    background: var(--color-primary);
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
 }
-.header_socials::after{
-    content:'';
-    width:1px;
-    height:2rem;
-    background:var(--color-primary);
+.header_socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
 }
 
 header:before {
-    content: '';
-    background: url('https://source.unsplash.com/1600x900/?nature,water') no-repeat center center/cover;
-    opacity: 0.4;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-attachment: fixed;
+  content: "";
+  background: url("https://source.unsplash.com/1600x900/?nature,water")
+    no-repeat center center/cover;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-attachment: fixed;
 }
 
 /*============ ME IMAGE =============*/
 
-.me{
-    width:25rem;
-    height:25rem;
-    position:absolute;
-    left:50%;
-    transform: translateX(-50%);
-    margin-top:1rem;
-    overflow:hidden;
-    padding:5rem;
-    justify-content: center;
+.me {
+  width: 25rem;
+  height: 25rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1rem;
+  overflow: hidden;
+  padding: 5rem;
+  justify-content: center;
 }
 
-.me>img{
-    border-style:solid;
-    border-radius: 50%;
-    border-color: white;
-    border: 50px white;
+.me > img {
+  border-style: solid;
+  border-radius: 50%;
+  border-color: white;
+  border: 50px white;
   justify-content: center;
-
-
+  object-fit: contain;
 }
 
 /*============ SCROLL DOWN =============*/
 
-
-.scroll_down{
-    position:absolute;
-    right:-2.3rem;
-    bottom:5rem;
-    transform:rotate(90deg);
-    font-weight:300;
-    font-size:0.9rem;
+.scroll_down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
 }
 /*---------------------MEDIA QUERIES(MEDIUM SCREEN DEVICES)===========*/
-@media screen and (max-width:1024px) {
-   
-    header{
-        height:68vh;
-
-    }
-    
-
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+  }
 }
 /*---------------------MEDIA QUERIES(SMALL SCREEN DEVICES)===========*/
-@media screen and (max-width:600px) {
-    header{
-        height:90vh;;
-    }
+@media screen and (max-width: 600px) {
+  header {
+    height: 90vh;
+  }
 
-    .header_socials,
-    .scroll_down{
-        display: none;
-        
-            
-        
-    }
+  .header_socials,
+  .scroll_down {
+    display: none;
+  }
 }
