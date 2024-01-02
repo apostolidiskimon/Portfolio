@@ -122,6 +122,11 @@
     grid-template-columns: 2fr;
     gap: 0;
   }
+  .containerinfo {
+    display: inline-block;
+    grid-template-columns: 2fr;
+    gap: 0;
+  }
   .about__me {
     width: 50%;
     margin: 2rem auto 4rem;
@@ -132,7 +137,16 @@
   .responsive {
     position: top;
   }
-
+  .about__container {
+    grid-template-columns: 2fr;
+    gap: 0;
+    disply: inline-block;
+  }
+  .containerinfo {
+    display: inline-block;
+    grid-template-columns: 2fr;
+    gap: 0;
+  }
   .about__me {
     width: 65%;
     margin: 0 auto 3rem;
@@ -161,18 +175,50 @@
   .about__me {
     width: 65%;
     margin: 0 auto 3rem;
+    background-color: aliceblue;
   }
-
+  .about__container {
+    grid-template-columns: 2fr;
+    gap: 0;
+    background-color: aliceblue;
+  }
+  .containerinfo {
+    display: inline-block;
+    grid-template-columns: 2fr;
+    gap: 0;
+  }
   .about__cards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
-
+  .about__cardsleft {
+    display: inline-block;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 5%;
+    justify-content: center;
+  }
+  .about__cardsright {
+    display: inline-block;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+    justify-content: center;
+  }
+  .about__cardsleft {
+    display: inline-block;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+    justify-content: center;
+  }
   .about__contnet {
     text-align: center;
   }
   .about__contnet p {
     margin: 1.5rem 0;
+  }
+  .about__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    display: inline-block;
   }
 }
 
@@ -190,6 +236,7 @@
   .about__cards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    display: inline-block;
   }
 
   .about__contnet {
