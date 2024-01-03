@@ -87,28 +87,38 @@ const About = () => {
               <p>
                 <p>
                   <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
                   <h3> Training and Upskilling</h3>
+                  <br></br>
                   <br></br>• FULL STACK DEVELOPER | Reatcode-Workearly, IT
-                  Consulting Services | Athens, Greece <br></br>• Learn JIRA
-                  with real-world examples (+Confluence bonus), Udemy
+                  Consulting Services | Athens, Greece <br></br>
+                  <br></br>• Learn JIRA with real-world examples (+Confluence
+                  bonus), Udemy<br></br>
                   <br></br>• Docker & Kubernetes: The Practical Guide [2023
-                  Edition], Udemy
+                  Edition], Udemy<br></br>
                   <br></br>• Git Complete: The definitive, step-by-step guide to
-                  Git, Udemy <br></br>• Modern HTML & CSS From The Beginning
-                  (Including Sass), Udemy<br></br>• Certified Game Developer
-                  with Unity, VELLUM Global Educational Services <br></br>•
-                  Foundations of Project Management, Google <br></br>• GDPR -
-                  Data Protection, Deutsche Telekom <br></br>• Additional
-                  short-term courses via LinkedIn Soft Skills <br></br>• Complex
-                  Problem Solving
-                  <br></br>• Critical Thinking <br></br>• Coordinating with
-                  others Consistency <br></br>• “Can do” attitude <br></br>•
-                  Ability to work under pressure <br></br>
-                  •Self-Discipline Work Ethic
+                  Git, Udemy <br></br>
+                  <br></br>• Modern HTML & CSS From The Beginning (Including
+                  Sass), Udemy<br></br>
+                  <br></br>• Certified Game Developer with Unity, VELLUM Global
+                  Educational Services<br></br> <br></br>• Foundations of
+                  Project Management, Google<br></br> <br></br>• GDPR - Data
+                  Protection, Deutsche Telekom <br></br>
+                  <br></br>• Additional short-term courses via LinkedIn Soft
+                  Skills<br></br> <br></br>• Complex Problem Solving<br></br>
+                  <br></br>• Critical Thinking <br></br>
+                  <br></br>• Coordinating with others Consistency <br></br>
+                  <br></br>• “Can do” attitude <br></br>
+                  <br></br>• Ability to work under pressure <br></br>
+                  <br></br>• Self-Discipline Work Ethic
                   <br></br>
                 </p>
               </p>
             </p>
+            <br></br>
             <a href="#contact" className="btn btn-primary">
               Contact Me
             </a>
@@ -143,11 +153,6 @@ const About = () => {
             <br></br>
             <br></br> <br></br>
             <br></br>
-            <br></br>
-            <br></br> <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
             <h2>Work Experience</h2>
             <br></br>
             <br></br>
@@ -167,9 +172,10 @@ const About = () => {
                 CSS, HTML, Python, JavaScript, Django, React, Java, C#, and SQL
                 databases.
               </strong>{" "}
-              I also have valuable customer service and sales order processing
-              skills, which I developed as a sales consultant-advisor at Cosmote
-              for three years. I am adept at
+              <br></br>
+              <br></br>I also have valuable customer service and sales order
+              processing skills, which I developed as a sales consultant-advisor
+              at Cosmote for three years. I am adept at
               <strong>
                 {" "}
                 problem-solving and program/project management,
@@ -180,9 +186,42 @@ const About = () => {
               the human experience.
               <br></br>
               <br></br>
-              <strong> As a Developer,</strong>{" "}
+              <strong>As a Developer</strong> , I have played a pivotal role in
+              steering transformative initiatives within the organization,
+              contributing significantly to major system upgrade releases,
+              implementing critical fixes, and providing steadfast after-release
+              support. <br></br>My involvement extends to System Integration
+              Testing (SIT), deployment support, and successfully orchestrating
+              a seamless brand new implementation. In my capacity as a
+              multifaceted professional, I demonstrated adept project management
+              skills, leading the design and analysis of project requirements
+              and creating comprehensive Functional Specification Documents. My
+              collaborative approach involved working closely with diverse
+              departments, ensuring a harmonized effort towards timely
+              deliverables.
+              <br></br>
+              <br></br>
+              <strong>The hallmark of my contribution </strong>lies in the
+              proactive engagement with stakeholders, tracking evolving project
+              needs, and delivering effective solutions. I facilitated open
+              communication channels, participating in numerous meetings with
+              cross-functional teams and vendors. During these engagements, I
+              actively intervened when necessary, ensuring alignment with
+              project goals and overcoming obstacles. Notably, the projects I
+              undertook were characterized by ambiguity and interfacing with
+              various systems, demanding a nuanced understanding of intricacies.
+              This required me to navigate complex landscapes, establishing a
+              framework for successful project outcomes. In summary, my role
+              transcended conventional development responsibilities,
+              encompassing a holistic approach that blended technical acumen
+              with project management finesse.<br></br>
+              <br></br>This integrated perspective allowed me to navigate
+              challenges, foster collaboration, and ultimately contribute to the
+              success of high-impact projects within the organization.
+              <br></br>
             </p>
           </div>
+          <br></br> <br></br> <br></br> <br></br>
           <a href="#contact" className="btn btn-primary">
             Contact Me
           </a>
