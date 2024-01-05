@@ -85,8 +85,21 @@
   transition: var(--transition);
   justify-content: center;
 }
+.about__cardgray {
+  background: rgba(128, 128, 128, 0.61);
+  border: 1px solid transparent;
+  border-radius: 4rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+  justify-content: center;
+}
 
 .about__card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+}
+.about__cardgray:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
 }
@@ -142,7 +155,7 @@
   .about__container {
     grid-template-columns: 2fr;
     gap: 0;
-    disply: inline-block;
+    display: inline-block;
   }
   .containerinfo {
     display: inline-block;
@@ -159,11 +172,11 @@
     gap: 1rem;
   }
 
-  .about__contnet {
+  .about__content {
     text-align: center;
   }
 
-  .about__contnet p {
+  .about__content p {
     margin: 1.5rem 0;
     font-size: red;
   }
@@ -237,8 +250,9 @@
 
   .about__cards {
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    display: inline-block;
+  }
+  .leftDivision {
+    display: none;
   }
 
   .about__contnet {

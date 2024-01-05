@@ -22,7 +22,7 @@ const About = () => {
               </p>
             </div>
             <div className="about__cardsleft">
-              <article className="about__card">
+              <article className="about__cardgray">
                 <FaAward className="about__icon" />
                 <h5>Ionian University</h5>
                 <h4>B.A</h4>
@@ -39,7 +39,7 @@ const About = () => {
                 <h3>FullStack Developer</h3>
               </article>
 
-              <article className="about__card">
+              <article className="about__cardgray">
                 <VscFolderLibrary className="about__icon" />
                 <h5>Google</h5>
                 <h4>Certificate</h4>
@@ -60,7 +60,7 @@ const About = () => {
                 <br></br>
                 <h4>C2 Level Of Proficiency In English</h4>
               </article>
-              <article className="about__card">
+              <article className="about__cardgray">
                 <VscFolderLibrary className="about__icon" />
                 <h5>Deutche Telekom</h5>
                 <h4>Certificate</h4>
@@ -74,7 +74,7 @@ const About = () => {
                 <br></br>
                 <h3>Certified Unity Developer</h3>
               </article>
-              <article className="about__card">
+              <article className="about__cardgray">
                 <VscFolderLibrary className="about__icon" />
                 <h5>Microsoft</h5>
                 <h4>Certificate</h4>
