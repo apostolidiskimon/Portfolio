@@ -1,112 +1,96 @@
-.portfolio__container{
-    
-
-display:flex;
-gap:5rem;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-    
+.portfolio__container {
+  display: flex;
+  gap: 5rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-.responsive{
-    margin-top: 10rem;
+.responsive {
+  margin-top: 10rem;
 }
-.portfolio__item h3,h5{
-    text-align: center;
+.portfolio__item h3,
+h5 {
+  text-align: center;
 }
-.portfolio__item{
-
-    display:grid;
-    justify-content: center;
-        align-items: center;
-    width:20rem;
-    height:20rem;
-    background:var(--color-bg-variant);
-    padding:1rem;
-    border-radius:2rem;
-    border:1px solid transparent;
-    transition: var(--transition);
-    size:5rem;
-    
-
- 
+.portfolio__item {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 20rem;
+  background: var(--color-bg-variant);
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  size: 5rem;
 }
 
-.portfolio__item:hover{
-    border-color:var(--color-primary-variant);
-    background:transparent;
+.portfolio__item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
 }
-.img{
-    align-items: center;
-    box-sizing: border-box;
- 
+.img {
+  align-items: center;
+  box-sizing: border-box;
 }
-.item-image{
-    overflow-y: hidden;
-    overflow-x: hidden;
-   height:10rem;
-   align-items: center;
-   box-shadow: black;
+.item-image {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: 10rem;
+  align-items: center;
+  box-shadow: rgb(173, 0, 0);
+  color: rgba(114, 114, 114, 0.288);
 }
 
-.portfolio__item h3{
-    margin:1.2rem 0 2rem;
+.portfolio__item h3 {
+  margin: 1.2rem 0 2rem;
 }
-.portfolio__item-cta{
-    left:2rem;
-    display:flex;
-    gap:1rem;
-    margin-bottom: 1rem;
-    align-items: center;
-    text-align: center;
-    position: relative;
-
+.portfolio__item-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 /*---------------------MEDIA QUERIES(MEDIUM SCREEN DEVICES)===========*/
-@media screen and (max-width:1024px) {
-    .img{
-        width:0%;
-        overflow-y: hidden;
-        overflow-x: hidden;
-    }
-    .item-image{
-        overflow-y: hidden;
-        overflow-x: hidden;
-        width:0%;
-    }
-    .portfolio__container {
-        overflow-y: hidden;
-        overflow-x  :hidden;
-        width:20rem;
-            display:flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            -ms-flex-align: center;
-        }
-    
-        .portfolio__item {
-            overflow-y: hidden;
-            overflow-x: hidden;
-            display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                -ms-flex-align: center;
-        }
-        
-}
+@media screen and (max-width: 1024px) {
+  .img {
+    width: 0%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .item-image {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 0%;
+    color: rgba(114, 114, 114, 0.288);
+  }
+  .portfolio__container {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+  }
 
+  .portfolio__item {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+  }
+}
 
 /*---------------------MEDIA QUERIES(SMALL SCREEN DEVICES)===========*/
-@media screen and (max-width:600px) {
-
-    .services__container {
+@media screen and (max-width: 600px) {
+  .services__container {
     display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        -ms-flex-align: center;
-    }
-
-   
+    flex-direction: column;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+  }
 }
-
-

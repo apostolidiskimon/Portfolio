@@ -57,7 +57,7 @@ const Portfolio = () => {
             </a>
             <a
               href="https://apostolidiskimon.github.io/msstore/"
-              className="btn"
+              className="btn btn-primary"
               rel="noreferrer"
               target="_blank"
             >

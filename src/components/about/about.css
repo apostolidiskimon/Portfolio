@@ -13,8 +13,7 @@
   align-items: center;
 }
 
-.leftDivision,
-.rightDivision {
+.leftDivision {
   flex: 1; /* Each division takes up equal width */
   padding: 20px; /* Add padding for spacing */
   /*border: 1px solid #ccc; /* Add a border for better visibility */
@@ -22,6 +21,16 @@
   align-items: center;
   display: grid;
 }
+.rightDivision {
+  flex: 1; /* Each division takes up equal width */
+  padding: 20px; /* Add padding for spacing */
+  /*border: 1px solid #ccc; /* Add a border for better visibility */
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  margin-top: -5rem;
+}
+
 .about__me {
   width: 100%;
   display: grid;
@@ -62,11 +71,13 @@
   justify-content: center;
 }
 .about__cardsright {
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(1, 3fr);
   gap: 5%;
   justify-content: center;
-  margin-top: 20rem;
+  margin-top: 10rem;
+  width: 25rem;
+  margin-left: 30rem;
 }
 .about__general {
   display: flex;

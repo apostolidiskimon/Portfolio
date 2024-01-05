@@ -149,8 +149,6 @@ const About = () => {
           <div className="Info">
             <br></br> <br></br>
             <br></br> <br></br>
-            <br></br>
-            <br></br>
             <br></br> <br></br>
             <br></br>
             <h2>Work Experience</h2>
@@ -222,6 +220,7 @@ const About = () => {
             </p>
           </div>
           <br></br> <br></br> <br></br> <br></br>
+          <br></br>
           <a href="#contact" className="btn btn-primary">
             Contact Me
           </a>

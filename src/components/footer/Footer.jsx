@@ -5,6 +5,7 @@ import { BsLinkedin } from "react-icons/bs";
 const Footer = () => {
   return (
     <footer>
+      <br></br>
       <a href="#" className="footer__logo">
         Home
       </a>
