@@ -15,7 +15,7 @@ const About = () => {
             <div className="container about_container left">
               <p>
                 Below you may find more information regarding my academic
-                eeducation as well as certifications and training.
+                education as well as certifications and training.
                 <br></br>
                 <br></br>
                 <br></br>
