@@ -82,7 +82,6 @@ const About = () => {
                 <h4>Developing Solutions for Microsoft Azure AZ-204</h4>
               </article>
             </div>
-
             <p>
               <p>
                 <p>
@@ -122,6 +121,8 @@ const About = () => {
             <a href="#contact" className="btn btn-primary">
               Contact Me
             </a>
+            <br></br> <br></br>
+            <br></br> <br></br>
           </div>
         </div>
 
@@ -149,8 +150,6 @@ const About = () => {
           <div className="Info">
             <br></br> <br></br>
             <br></br> <br></br>
-            <br></br> <br></br>
-            <br></br>
             <h2>Work Experience</h2>
             <br></br>
             <br></br>

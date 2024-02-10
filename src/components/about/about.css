@@ -7,6 +7,7 @@
 .containerinfo {
   display: flex; /* Use flexbox for layout */
   justify-content: center;
+  align-items: center;
 }
 .about_general {
   justify-content: center;
@@ -15,7 +16,7 @@
 
 .leftDivision {
   flex: 1; /* Each division takes up equal width */
-  padding: 20px; /* Add padding for spacing */
+  padding: 1rem; /* Add padding for spacing */
   /*border: 1px solid #ccc; /* Add a border for better visibility */
   justify-content: center;
   align-items: center;
@@ -44,9 +45,7 @@
   display: flex;
   flex-direction: row;
   -ms-flex-align: center;
-  background-color: rgb(0, 255, 64);
   justify-content: center;
-  background-color: red;
 }
 .about_qualifications {
   display: flex;
@@ -71,13 +70,10 @@
   justify-content: center;
 }
 .about__cardsright {
-  display: grid;
-  grid-template-columns: repeat(1, 3fr);
-  gap: 5%;
+  display: flex;
   justify-content: center;
-  margin-top: 10rem;
-  width: 25rem;
-  margin-left: 30rem;
+  align-items: center;
+  gap: 2rem;
 }
 .about__general {
   display: flex;
@@ -157,6 +153,10 @@
     width: 50%;
     margin: 2rem auto 4rem;
   }
+  .about__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
 }
 /* IPHONE */
 @media (min-width: 844) {
@@ -189,69 +189,55 @@
 
   .about__content p {
     margin: 1.5rem 0;
-    font-size: red;
   }
 }
 
 /*---------------------MEDIA QUERIES(SMALL SCREEN DEVICES)===========*/
 @media screen and (max-width: 600px) {
   .responsive {
-    margin-top: 5rem;
-  }
-  .about__me {
-    width: 65%;
-    margin: 0 auto 3rem;
-    background-color: aliceblue;
-  }
-  .about__container {
-    grid-template-columns: 2fr;
-    gap: 0;
-    background-color: aliceblue;
-  }
-  .containerinfo {
-    display: inline-block;
-    grid-template-columns: 2fr;
-    gap: 0;
+    margin: 2rem;
+    display: "grid";
+    justify-content: center;
   }
   .about__cards {
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-  }
-  .about__cardsleft {
-    display: inline-block;
-    grid-template-columns: repeat(4, 2fr);
-    gap: 5%;
+    display: inline;
+    background: rgba(128, 128, 128, 0.61);
+    font-size: smaller;
     justify-content: center;
   }
   .about__cardsright {
-    display: inline-block;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5%;
-    justify-content: center;
-  }
-  .about__cardsleft {
-    display: inline-block;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5%;
-    justify-content: center;
-  }
-  .about__contnet {
-    text-align: center;
-  }
-  .about__contnet p {
-    margin: 1.5rem 0;
-  }
-  .about__cards {
+    display: none;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    display: inline-block;
+    justify-content: center;
+    font-size: smaller;
+  }
+
+  .about__cardsleft {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    font-size: smaller;
+  }
+  .about__card {
+    display: inline;
+    background: rgba(128, 128, 128, 0.61);
+    font-size: smaller;
+
+    justify-content: center;
+  }
+  .about__cardgray {
+    display: inline;
+    background: rgba(128, 128, 128, 0.61);
+    text-size-adjust: inherit;
+    font-size: smaller;
+    justify-content: center;
   }
 }
 
 /*---------------------MEDIA QUERIES(SMALLER SCREEN DEVICES)===========*/
 @media screen and (max-width: 400px) {
   .responsive {
-    margin-top: 10rem;
+    margin: auto;
   }
 
   .about__me {
@@ -260,14 +246,25 @@
   }
 
   .about__cards {
-    grid-template-columns: 1fr 1fr;
+    display: none;
+    font-size: smaller;
   }
+  .about__card {
+    font-size: smaller;
+
+    display: none;
+  }
+
   .leftDivision {
     display: none;
+    font-size: smaller;
   }
 
   .about__contnet {
     text-align: center;
+    font-size: smaller;
+
+    display: Flex;
   }
 
   .about__contnet p {
