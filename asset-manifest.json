@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.fa623cbb.css",
-    "main.js": "/Portfolio/static/js/main.3a03a15d.js",
+    "main.css": "/Portfolio/static/css/main.884e2ccc.css",
+    "main.js": "/Portfolio/static/js/main.ba088046.js",
     "static/media/presentation.pptx": "/Portfolio/static/media/presentation.c5c61d9233144ab99a1b.pptx",
     "static/media/musicfinderbeta.apk": "/Portfolio/static/media/musicfinderbeta.0d1c12bb2ecbc2e56379.apk",
     "static/media/placeholder1.jpg": "/Portfolio/static/media/placeholder1.890168cbb7220d8533b8.jpg",
@@ -11,11 +11,11 @@
     "static/media/logo2.png": "/Portfolio/static/media/logo2.c8535d0475d866894dfd.png",
     "static/media/wip.jpg": "/Portfolio/static/media/wip.d804e1de15598111e11b.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.fa623cbb.css.map": "/Portfolio/static/css/main.fa623cbb.css.map",
-    "main.3a03a15d.js.map": "/Portfolio/static/js/main.3a03a15d.js.map"
+    "main.884e2ccc.css.map": "/Portfolio/static/css/main.884e2ccc.css.map",
+    "main.ba088046.js.map": "/Portfolio/static/js/main.ba088046.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa623cbb.css",
-    "static/js/main.3a03a15d.js"
+    "static/css/main.884e2ccc.css",
+    "static/js/main.ba088046.js"
   ]
 }
